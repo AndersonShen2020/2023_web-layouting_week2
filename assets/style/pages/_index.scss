@@ -1,0 +1,69 @@
+nav {
+  padding-top: 40px;
+  li {
+    width: 306px;
+    &:last-child {
+      width: 195px;
+    }
+  }
+}
+
+.banner {
+  padding: 70px 0;
+}
+
+.intro {
+  height: 920px;
+  padding: 160px 0;
+  background-image: url("../img/background-img.png");
+  background-size: cover;
+  &-text {
+    width: 526px;
+    p {
+      font-size: 24px;
+      margin: 36px 0 32px 0;
+    }
+  }
+}
+
+.about {
+  background-color: #fff;
+  color: #15161d;
+  padding: 160px 0;
+  &-card {
+    max-width: 636px;
+  }
+  &-text {
+    max-width: 526px;
+    h2 {
+      color: #000;
+      margin-bottom: 36px;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+}
+
+.contact {
+  padding: 96px 0;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  .arrow {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.projects {
+  padding: 160px 0;
+  background-color: #fff;
+  color: #000;
+  h2 {
+    width: 746px;
+    margin-left: auto;
+  }
+}
+
+footer {
+  padding: 40px 0;
+}

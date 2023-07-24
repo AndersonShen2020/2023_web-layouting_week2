@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+
+@import "./base/reset";
+@import "./base/base";
+
+@import "helpers/utilities";
+
+@import "./components/btn";
+@import "./components/card";
+@import "./components/image";
+
+@import "pages/index";
